@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Armonía · Escuela de Música</title>
+  <meta name="description" content="Escuela de música Armonía: clases de guitarra, batería y piano para todas las edades y niveles.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>">
+</head>
+<body>
+
+  <!-- NAVEGACIÓN -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#inicio" class="logo">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="currentColor" opacity=".12"/><path d="M12 22.5a3 3 0 1 1-2-2.83V9l12-2.5v12a3 3 0 1 1-2-2.83V10.2l-8 1.66v10.64Z" fill="currentColor"/></svg>
+        <span>Armonía</span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#clases">Clases</a>
+        <a href="#metodo">Método</a>
+        <a href="#profesores">Profesores</a>
+        <a href="#precios">Precios</a>
+        <a href="#contacto" class="btn btn--small">Clase de prueba</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__glow"></div>
+    <div class="container hero__inner">
+      <div class="hero__text reveal">
+        <p class="eyebrow">Escuela de música · Desde 2010</p>
+        <h1>Aprende a tocar<br>la música que <em>amas</em></h1>
+        <p class="lead">Clases de guitarra, batería y piano para niños, jóvenes y adultos. Profesores titulados, grupos reducidos y un método pensado para que disfrutes desde el primer día.</p>
+        <div class="hero__cta">
+          <a href="#contacto" class="btn">Reserva tu clase gratis</a>
+          <a href="#clases" class="btn btn--ghost">Ver clases →</a>
+        </div>
+        <ul class="hero__stats">
+          <li><strong>+800</strong><span>alumnos formados</span></li>
+          <li><strong>12</strong><span>profesores</span></li>
+          <li><strong>4,9★</strong><span>valoración media</span></li>
+        </ul>
+      </div>
+      <div class="hero__visual reveal">
+        <div class="vinyl">
+          <div class="vinyl__label"><span>Armonía</span></div>
+        </div>
+        <div class="float-card float-card--a">🎸 Guitarra</div>
+        <div class="float-card float-card--b">🥁 Batería</div>
+        <div class="float-card float-card--c">🎹 Piano</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLASES -->
+  <section class="section" id="clases">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Nuestras clases</p>
+        <h2>Tres instrumentos, infinitas posibilidades</h2>
+        <p>Clases individuales o en grupos de máximo 4 alumnos, adaptadas a tu nivel y a tus estilos favoritos.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__icon card__icon--guitar">
+            <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M50 6l8 8-4 4-3-1-12 12a12 12 0 0 1-3 13c-5 5-12 5-17 0-2-2-3-4-3-6-3 0-6-1-8-3-4-4-3-10 2-14 4-4 9-4 13-2L35 15l-1-3 4-4 4 4z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><circle cx="24" cy="40" r="4" fill="currentColor"/></svg>
+          </div>
+          <h3>Guitarra</h3>
+          <p>Acústica, eléctrica y española. Desde tus primeros acordes hasta solos, rock, pop, flamenco o fingerstyle.</p>
+          <ul class="checks">
+            <li>Técnica y lectura de tablaturas</li>
+            <li>Acompañamiento y canto</li>
+            <li>Improvisación y armonía</li>
+          </ul>
+        </article>
+
+        <article class="card card--featured reveal">
+          <span class="badge">Más demandada</span>
+          <div class="card__icon card__icon--drums">
+            <svg viewBox="0 0 64 64" aria-hidden="true"><ellipse cx="32" cy="34" rx="20" ry="7" fill="none" stroke="currentColor" stroke-width="3"/><path d="M12 34v14c0 4 9 7 20 7s20-3 20-7V34" fill="none" stroke="currentColor" stroke-width="3"/><path d="M22 6l10 22M44 4L34 28" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Batería</h3>
+          <p>Ritmo, coordinación y groove. Salas insonorizadas con baterías acústicas y electrónicas de alta gama.</p>
+          <ul class="checks">
+            <li>Rudimentos y lectura rítmica</li>
+            <li>Rock, funk, jazz y latin</li>
+            <li>Tocar con banda y metrónomo</li>
+          </ul>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon card__icon--piano">
+            <svg viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="14" width="52" height="36" rx="4" fill="none" stroke="currentColor" stroke-width="3"/><path d="M19 14v36M32 14v36M45 14v36" stroke="currentColor" stroke-width="3"/><path d="M15 14h8v20h-8zM28 14h8v20h-8zM41 14h8v20h-8z" fill="currentColor"/></svg>
+          </div>
+          <h3>Piano</h3>
+          <p>Clásico y moderno. Aprende a leer partituras, a tocar de oído y a crear tus propios arreglos.</p>
+          <ul class="checks">
+            <li>Lenguaje musical y lectura</li>
+            <li>Repertorio clásico y pop</li>
+            <li>Preparación de exámenes oficiales</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- MÉTODO -->
+  <section class="section section--dark" id="metodo">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Nuestro método</p>
+        <h2>Así aprenderás con nosotros</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <span class="step__num">01</span>
+          <h3>Clase de prueba gratuita</h3>
+          <p>Conocemos tus gustos, tu nivel y tus objetivos. Sin compromiso.</p>
+        </div>
+        <div class="step reveal">
+          <span class="step__num">02</span>
+          <h3>Plan personalizado</h3>
+          <p>Tu profesor diseña un itinerario a tu medida, con las canciones que quieres tocar.</p>
+        </div>
+        <div class="step reveal">
+          <span class="step__num">03</span>
+          <h3>Práctica guiada</h3>
+          <p>Material en nuestra plataforma online y seguimiento semanal de tu progreso.</p>
+        </div>
+        <div class="step reveal">
+          <span class="step__num">04</span>
+          <h3>Sube al escenario</h3>
+          <p>Conciertos trimestrales y bandas de alumnos para que vivas la música en directo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROFESORES -->
+  <section class="section" id="profesores">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Equipo</p>
+        <h2>Profesores que viven la música</h2>
+        <p>Músicos en activo, titulados y con años de experiencia en la enseñanza.</p>
+      </div>
+      <div class="team">
+        <div class="member reveal">
+          <div class="member__avatar" style="--c1:#f59e0b;--c2:#ef4444">LM</div>
+          <h3>Laura Martín</h3>
+          <p class="member__role">Guitarra</p>
+          <p>Titulada superior en guitarra moderna. 15 años de giras y estudio.</p>
+        </div>
+        <div class="member reveal">
+          <div class="member__avatar" style="--c1:#8b5cf6;--c2:#ec4899">DR</div>
+          <h3>Daniel Ruiz</h3>
+          <p class="member__role">Batería</p>
+          <p>Batería de sesión y especialista en ritmos latinos y funk.</p>
+        </div>
+        <div class="member reveal">
+          <div class="member__avatar" style="--c1:#0ea5e9;--c2:#6366f1">SG</div>
+          <h3>Sofía García</h3>
+          <p class="member__role">Piano</p>
+          <p>Pianista clásica y de jazz. Profesora de conservatorio durante 10 años.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="section section--soft">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Opiniones</p>
+        <h2>Lo que dicen nuestros alumnos</h2>
+      </div>
+      <div class="quotes">
+        <blockquote class="quote reveal">
+          <p>“En seis meses pasé de no saber nada a tocar mis canciones favoritas. El ambiente es increíble.”</p>
+          <cite>— Marta, alumna de guitarra</cite>
+        </blockquote>
+        <blockquote class="quote reveal">
+          <p>“Mi hijo espera toda la semana su clase de batería. Profesores con muchísima paciencia.”</p>
+          <cite>— Javier, padre de alumno</cite>
+        </blockquote>
+        <blockquote class="quote reveal">
+          <p>“Retomé el piano a los 45 y ha sido la mejor decisión. Clases flexibles y muy bien estructuradas.”</p>
+          <cite>— Elena, alumna de piano</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRECIOS -->
+  <section class="section" id="precios">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Tarifas</p>
+        <h2>Planes sencillos, sin matrícula</h2>
+        <p>Precios mensuales válidos para cualquier instrumento.</p>
+      </div>
+      <div class="pricing">
+        <div class="plan reveal">
+          <h3>Grupal</h3>
+          <p class="plan__price"><span>45€</span>/mes</p>
+          <p class="plan__desc">Grupos de 3–4 alumnos</p>
+          <ul class="checks">
+            <li>1 clase semanal de 60 min</li>
+            <li>Material didáctico incluido</li>
+            <li>Conciertos trimestrales</li>
+          </ul>
+          <a href="#contacto" class="btn btn--ghost btn--block">Elegir plan</a>
+        </div>
+        <div class="plan plan--featured reveal">
+          <span class="badge">Recomendado</span>
+          <h3>Individual</h3>
+          <p class="plan__price"><span>85€</span>/mes</p>
+          <p class="plan__desc">Clase 100% personalizada</p>
+          <ul class="checks">
+            <li>1 clase semanal de 45 min</li>
+            <li>Plan de estudio a medida</li>
+            <li>Acceso a plataforma online</li>
+            <li>Conciertos trimestrales</li>
+          </ul>
+          <a href="#contacto" class="btn btn--block">Elegir plan</a>
+        </div>
+        <div class="plan reveal">
+          <h3>Intensivo</h3>
+          <p class="plan__price"><span>150€</span>/mes</p>
+          <p class="plan__desc">Para avanzar rápido</p>
+          <ul class="checks">
+            <li>2 clases semanales de 60 min</li>
+            <li>Uso libre de salas de ensayo</li>
+            <li>Preparación de exámenes</li>
+          </ul>
+          <a href="#contacto" class="btn btn--ghost btn--block">Elegir plan</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section--dark" id="contacto">
+    <div class="container contact">
+      <div class="contact__info reveal">
+        <p class="eyebrow">Contacto</p>
+        <h2>Reserva tu clase de prueba gratuita</h2>
+        <p>Déjanos tus datos y te llamamos en menos de 24 horas para encontrar el mejor horario.</p>
+        <ul class="contact__list">
+          <li><span>📍</span> Calle de la Música 12, Madrid</li>
+          <li><span>📞</span> +34 600 000 000</li>
+          <li><span>✉️</span> hola@armoniamusica.es</li>
+          <li><span>🕒</span> Lunes a viernes 10:00–21:00 · Sábados 10:00–14:00</li>
+        </ul>
+      </div>
+      <form class="form reveal" id="contactForm">
+        <label>Nombre<input type="text" name="nombre" required placeholder="Tu nombre"></label>
+        <label>Email<input type="email" name="email" required placeholder="tu@email.com"></label>
+        <label>Teléfono<input type="tel" name="telefono" placeholder="600 000 000"></label>
+        <label>Instrumento
+          <select name="instrumento" required>
+            <option value="">Selecciona uno</option>
+            <option>Guitarra</option>
+            <option>Batería</option>
+            <option>Piano</option>
+          </select>
+        </label>
+        <label class="form__full">Mensaje<textarea name="mensaje" rows="3" placeholder="Cuéntanos tu nivel o lo que te gustaría aprender"></textarea></label>
+        <button type="submit" class="btn btn--block form__full">Solicitar clase gratis</button>
+        <p class="form__ok form__full" id="formOk" hidden>¡Gracias! Te contactaremos muy pronto 🎶</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#inicio" class="logo logo--light">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="currentColor" opacity=".12"/><path d="M12 22.5a3 3 0 1 1-2-2.83V9l12-2.5v12a3 3 0 1 1-2-2.83V10.2l-8 1.66v10.64Z" fill="currentColor"/></svg>
+        <span>Armonía</span>
+      </a>
+      <p>© <span id="year"></span> Armonía Escuela de Música. Todos los derechos reservados.</p>
+      <div class="footer__social">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="YouTube">YouTube</a>
+        <a href="#" aria-label="TikTok">TikTok</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
